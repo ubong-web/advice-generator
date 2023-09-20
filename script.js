@@ -4,7 +4,7 @@ const containerEl = document.querySelector(".container");
 console.log(containerEl);
 const infoEl = document.querySelector("#info");
 console.log(infoEl);
-const buttonEl = document.querySelector(".button");
+const buttonEl = document.querySelector(".dice-container");
 const adviceUrl = "https://api.adviceslip.com/advice";
 
 buttonEl.addEventListener("click", () => {
